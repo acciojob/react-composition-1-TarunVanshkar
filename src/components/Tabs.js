@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 
 const Tabs = (props) => {
     // console.log(props.data);
-    const [content, setContent] = useState("");
+    const [content, setContent] = useState(props.data[0].content);
     return(
         <>
             <ul>
